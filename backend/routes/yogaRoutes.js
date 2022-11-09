@@ -1,4 +1,4 @@
-import Sequence from '../models/sequenceModel' 
+const Sequence = require ('../models/sequenceModel')
 const express = require('express')
 const router = express.Router()
 
