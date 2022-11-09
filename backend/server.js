@@ -7,7 +7,6 @@ const yogaRoutes = require("./routes/yogaRoutes")
 
 //middlware
 app.use(express.json())
-app.use("/", require("./routes/yogaRoutes"))
 app.use("/poses", require("./routes/yogaRoutes"))
 
 //listen for requests
