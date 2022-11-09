@@ -10,7 +10,9 @@ const createPose = (req, res) => {
   
     // Create has two arguments:
     //   1st: the data we want to send
-    //   2nd: callback function 
+    //   2nd: callback function
+
+    //
     Pose.create(req.body, (err, createdPose) => {
         if (err) {
             res.status(400).json(err)
@@ -27,3 +29,4 @@ const createPose = (req, res) => {
 // ROUTE      DELETE /remove
 // ROUTE      GET /pose/new    (edit sequence?)
 
+module.exports = createPose
