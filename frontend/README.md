@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was designed as a tool for yoga instructors to sort their favorite poses into sequences to simplify the planning process for yoga classes. It is also meant to allow teachers a space to set goals for themselves and save their personalzied goals, sequences, and favorite poses on their password protected profiles.
+
+
+bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

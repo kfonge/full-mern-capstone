@@ -1,4 +1,4 @@
-const Pose = require('../models/poseModel')
+const Pose = require('../models/Pose')
 
 // ROUTE      GET /allposes    (get all poses)
 

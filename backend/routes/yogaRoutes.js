@@ -1,4 +1,4 @@
-const Sequence = require ('../models/sequenceModel')
+const Sequence = require ('../models/Sequence')
 const express = require('express')
 const router = express.Router()
 
